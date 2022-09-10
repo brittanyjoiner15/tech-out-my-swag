@@ -1,5 +1,6 @@
 import "../styles/global.css";
 import "@shopify/polaris/build/esm/styles.css";
+import Head from "next/head";
 import {
   AppProvider,
   Page,
@@ -12,7 +13,7 @@ import {
   Link,
 } from "@shopify/polaris";
 import Swag from "../components/swag";
-import { useState, useCallback, useEffect } from "react";
+import { useState } from "react";
 import data from "../data/mySwag.json";
 
 export default function App({}) {
@@ -81,6 +82,16 @@ export default function App({}) {
 
   return (
     <AppProvider>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Search through my tech swag collection!"
+        />
+        <meta property="og:image" content="./images/tech-out-my-swag.png" />
+        <meta name="og:title" content="Tech Out My Swag" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <Page fullWidth>
         <Text
           alignment="center"
@@ -100,7 +111,7 @@ export default function App({}) {
         <TextField
           clearButton
           onClearButtonClick={() => updateSearchTerm("")}
-          label="Search by company"
+          label="Search for swag by company"
           value={searchTerm}
           onChange={(e) => {
             updateSearchTerm(e);
@@ -111,7 +122,7 @@ export default function App({}) {
         <Grid>
           <Grid.Cell columnSpan={{ sm: 6, md: 3, lg: 3, xl: 3 }}>
             <OptionList
-              title="Filter swag by"
+              title="Filter swag by..."
               onChange={(e) => {
                 updateSwagType(e[0]);
               }}
@@ -121,8 +132,8 @@ export default function App({}) {
                 { value: "shirts", label: "Shirts" },
                 { value: "sweatpants", label: "Sweatpants" },
                 { value: "socks", label: "Socks" },
-                { value: "backpacks", label: "Backpacks" },
-                { value: "pins", label: "Pins" },
+                { value: "backpacks", label: "Backpacks {Coming Soon!}" },
+                { value: "pins", label: "Pins {Coming Soon!}" },
               ]}
               selected={selectedSwagType}
             />
@@ -134,9 +145,9 @@ export default function App({}) {
         <FooterHelp>
           Built by{" "}
           <Link url="https://github.com/brittanyjoiner15" external>
-            Polaris
+            Brittany Joiner
           </Link>{" "}
-          with Polaris, Next.JS, and ...
+          with Polaris, Next.JS, and Netlify
         </FooterHelp>
       </Page>
     </AppProvider>
