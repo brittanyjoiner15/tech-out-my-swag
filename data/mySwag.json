@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Svelte T-Shirt",
+    "company": "Svelte",
+    "type": "shirts",
+    "image": "./images/swag/svelte_shirt.png"
+  },
+  {
+    "title": "Causely Gray T-Shirt",
+    "company": "Causely",
+    "type": "shirts",
+    "image": "./images/swag/causely_gray.png"
+  },
+  {
+    "title": "CircleCI Success T-Shirt",
+    "company": "CircleCI",
+    "type": "shirts",
+    "image": "./images/swag/circle_ci_shirt.png"
+  },
+  {
+    "title": "Trello Taco T-Shirt",
+    "company": "Trello",
+    "type": "shirts",
+    "image": "./images/swag/trello_taco.png"
+  },
+  {
+    "title": "Vonage Purple T-Shirt",
+    "company": "Vonage",
+    "type": "shirts",
+    "image": "./images/swag/vonage_purple.png"
+  },
+  {
+    "title": "NFT Storage Yellow T-Shirt",
+    "company": "NFT.Storage",
+    "type": "shirts",
+    "image": "./images/swag/nft_storage_yellow.png"
+  },
+  {
+    "title": "Trello Taco 2 T-Shirt",
+    "company": "Trello",
+    "type": "shirts",
+    "image": "./images/swag/trello_taco_2.png"
+  },
+  {
+    "title": "PixieBrix T-Shirt",
+    "company": "PixieBrix",
+    "type": "shirts",
+    "image": "./images/swag/pixiebrix.png"
+  },
+  {
+    "title": "CircleCI Socks",
+    "company": "CircleCI",
+    "type": "socks",
+    "image": "./images/swag/circle_ci_socks.png"
+  },
+  {
+    "title": "CircleCI Socks 2",
+    "company": "CircleCI",
+    "type": "socks",
+    "image": "./images/swag/circle_ci_socks_2.png"
+  },
+  {
+    "title": "Contrast Socks",
+    "company": "Contrast",
+    "type": "socks",
+    "image": "./images/swag/contrast_socks.png"
+  },
+  {
+    "title": "Elastic Socks 1",
+    "company": "Elastic",
+    "type": "socks",
+    "image": "./images/swag/elastic_socks_1.png"
+  },
+  {
+    "title": "Elastic Life Work T-Shirt",
+    "company": "Elastic",
+    "type": "shirts",
+    "image": "./images/swag/elastic_life_work_shirt.png"
+  },
+  {
+    "title": "Elastic Teal T-Shirt",
+    "company": "Elastic",
+    "type": "shirts",
+    "image": "./images/swag/elastic_teal_shirt.png"
+  },
+
+  {
+    "title": "Elastic Socks 2",
+    "company": "Elastic",
+    "type": "socks",
+    "image": "./images/swag/elastic_socks_2.png"
+  },
+  {
+    "title": "Trello Hat",
+    "company": "Trello",
+    "type": "hats",
+    "image": "./images/swag/trello_hat.png"
+  },
+  {
+    "title": "Atlassian Hat",
+    "company": "Atlassian",
+    "type": "hats",
+    "image": "./images/swag/atlassian_hat.png"
+  },
+  {
+    "title": "NFT.Storage Hat",
+    "company": "NFT.Storage",
+    "type": "hats",
+    "image": "./images/swag/nft_storage_hat.png"
+  },
+  {
+    "title": "Elastic Pride Hat",
+    "company": "Elastic",
+    "type": "hats",
+    "image": "./images/swag/elastic_pride_hat.png"
+  },
+  {
+    "title": "Atlassian Good Job Hat",
+    "company": "Atlassian",
+    "type": "hats",
+    "image": "./images/swag/atlassian_good_job_hat.png"
+  }
+]

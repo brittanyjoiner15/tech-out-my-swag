@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@shopify/polaris": "^10.2.0",
+    "@shopify/polaris-tokens": "^6.0.0",
     "date-fns": "^2.11.1",
     "gray-matter": "^4.0.2",
     "next": "latest",
