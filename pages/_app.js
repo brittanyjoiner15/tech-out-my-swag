@@ -84,6 +84,7 @@ export default function App({}) {
     <AppProvider>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <title>Tech Out My Swag</title>
         <meta
           name="description"
           content="Search through my tech swag collection!"
